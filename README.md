@@ -11,6 +11,7 @@ In Machine Learning, feature importance gives (usually just) a relative ranking 
 
 Below is a graph showing the effectiveness of each method when using different models. x-axis represents number of features and y-axis represents MAE loss.
 
+![Goal2](https://github.com/TinaLiu46/Feature-Importance/blob/main/Images/models.png?raw=true "Title")
 ## Automatic feature selection algorithm
 
 After calculating a score for each feature representing their importances. We want to implement an automated mechanism that selects the top k features automatically that gives the best validation error. The algorithm is shown below:
